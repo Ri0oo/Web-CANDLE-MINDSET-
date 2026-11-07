@@ -8,6 +8,7 @@ export interface SignalData {
   confidence: number;
   generationTimestamp: number;
   entryTimestamp: number;
+  engineUsed?: 'v2' | 'v2.1';
   candlestickPattern?: string;
   marketStructure?: string;
   reasoning?: string;
